@@ -8,34 +8,169 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <script src="https://kit.fontawesome.com/83edbafe00.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display:600,900|Montaga|Montserrat:400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href ="css/style.css" />
+
+    <title>Let's go</title>
   </head>
-  <body>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h1> Liga Miszczów </h1>
-        </div>
-        <div class="carousel-item">
-          <h1> Liga Mniejszych Miszczów </h1>
-          <h5> - roboczo nazywan ogórkową -</h5>
+  <body class="bg-warning">
+      <div class="row justify-content-center header">
+        <div class="col-auto">
+          <h1 class="font-weight-bold text-dark"> Liga Miszczów</h1>
+          <hr />
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <div class="row justify-content-center align-items-center">
+        <div class="col-auto">
+          <table class="table table-striped bg-light shadow-lg">
+            <thead class="thead-dark">
+              <tr>
+                <th>
+                </th>
+                <th title="Konrad Nogalski">
+                  KN
+                </th>
+                <th title="Łukasz Kołodziejczyk">
+                  ŁK
+                </th>
+                <th title="Marcin Godleś">
+                  MG
+                </th>
+                <th title="Kuba Koryciński">
+                  JK
+                </th>
+                <th title="Grzesiek Tomczyk">
+                  GT
+                </th>
+                <th class="total-score">
+                  Suma pkt.
+                </th>
+              </tr>
+            </thead>
+            <tr>
+              <th title="Konrad Nogalski">
+                KN
+              </th>
+              <td title="X">
+                <i class="fas fa-futbol"></i>
+              </td>
+              <td title="Konrad Nogalski vs. Łukasz Kołodziejczyk">
+                0
+              </td>
+              <td title="Konrad Nogalski vs. Marcin Godleś">
+                1
+              </td>
+              <td title="Konrad Nogalski vs. Kuba Koryciński">
+                3
+              </td>
+              <td title="Konrad Nogalski vs.Grzesiek Tomczyk">
+                0
+              </td>
+              <td class="total-score">
+                4
+              </td>
+            </tr>
+            <tr>
+              <th title="Łukasz Kołodziejczyk">
+                ŁK
+              </th>
+              <td title="Łukasz Kołodziejczyk vs Konrad Nogalski">
+                0
+              </td>
+              <td title="X">
+                <i class="fas fa-futbol"></i>
+
+              </td>
+              <td title="Łukasz Kołodziejczyk vs. Marcin Godleś">
+                1
+              </td>
+              <td title="Łukasz Kołodziejczyk vs. Kuba Koryciński">
+                3
+              </td>
+              <td title="Łukasz Kołodziejczyk vs. Grzesiek Tomczyk">
+                0
+              </td>
+              <td class="total-score">
+                4
+              </td>
+            </tr>
+            <tr>
+              <th title="Marcin Godleś">
+                MG
+              </th>
+              <td title="Marcin Godleś vs. Konrad Nogalski">
+                0
+              </td>
+              <td title="Marcin Godleś vs. Łukasz Kołodziejczyk">
+                0
+              </td>
+              <td title="X">
+                <i class="fas fa-futbol"></i>
+              </td>
+              <td title="Marcin Godleś vs. Kuba Koryciński">
+                3
+              </td>
+              <td title="Marcin Godleś vs. Grzesiek Tomczyk">
+                0
+              </td>
+              <td class="total-score">
+                3
+              </td>
+            </tr>
+            <tr>
+              <th title="Kuba Koryciński">
+                JK
+              </th>
+              <td title="Kuba Koryciński vs. Konrad Nogalski">
+                3
+              </td>
+              <td title="Kuba Koryciński vs. Łukasz Kołodziejczyk">
+                0
+              </td>
+              <td title="Kuba Koryciński vs. Marcin Godleś">
+                1
+              </td>
+              <td title="X">
+                <i class="fas fa-futbol"></i>
+              </td>
+              <td title="Kuba Koryciński vs. Grzesiek Tomczyk">
+                0
+              </td>
+              <td class="total-score">
+                4
+              </td>
+            </tr>
+            <tr>
+              <th ctitle="Grzesiek Tomczyk">
+                GT
+              </th>
+              <td title="Grzesiek Tomczyk vs. Konrad Nogalski">
+                3
+              </td>
+              <td title="Grzesiek Tomczyk vs. Łukasz Kołodziejczyk">
+                0
+              </td>
+              <td title="Grzesiek Tomczyk vs. Marcin Godleś">
+                1
+              </td>
+              <td title="Grzesiek Tomczyk vs. Kuba Koryciński">
+                3
+              </td>
+              <td title="X">
+                <i class="fas fa-futbol"></i>
+              </td>
+              <td class="total-score">
+                7
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="row">
+      </div>
     </div>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

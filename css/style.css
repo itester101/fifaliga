@@ -1,0 +1,33 @@
+.header {
+    margin: 2rem 0;
+      font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border: 0;
+  height: 4px;
+  background: rgba(52, 64, 58, 0.75);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(52, 64, 58, 1), rgba(0, 0, 0, 0));
+}
+
+th {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.row {
+  height: 30%;
+}
+
+.total-score {
+  border-left: 10px solid lightgrey;
+  font-weight: bold;
+}
+
+
+td {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+}

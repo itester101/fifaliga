@@ -1,6 +1,9 @@
-.header {
-    margin: 2rem 0;
-      font-family: 'Montserrat', sans-serif;
+h3 {
+  text-align: center;
+}
+
+h5 {
+  margin: 0;
 }
 
 hr {
@@ -11,23 +14,98 @@ hr {
 }
 
 th {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-family: 'Inconsolata', monospace;
+  font-weight: 400;
   font-size: 1.5rem;
 }
-
-.row {
-  height: 30%;
-}
-
-.total-score {
-  border-left: 10px solid lightgrey;
-  font-weight: bold;
-}
-
 
 td {
   font-family: 'Big Shoulders Display', cursive;
   font-size: 1.5rem;
   text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.header {
+      margin: 2rem 0;
+      font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-item  {
+  padding: 2% 0 4%;
+}
+
+.total-score {
+  border-left: 10px solid lightgrey;
+}
+
+td.total-score {
+  font-weight: bold;
+  padding: auto 2%;
+}
+
+.carousel-control-prev {
+  margin: 9% 0 0 35%;
+}
+
+.carousel-control-next {
+  margin: 9% 35% 0 0;
+}
+
+.carousel-control{
+  width: 5%
+}
+
+.cards-deck {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  visibility: hidden;
+  border: none;
+}
+
+.card-kn {
+  position: relative;
+}
+
+.card-footer {
+  position: relative;
+}
+
+.place {
+  font-size:0.75rem;
+  font-weight: bold;
+  padding-bottom: 2px;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+.kn {
+  color: Tomato;
+}
+
+.bronze {
+  color: #cd7f32;
+}
+
+.silver {
+  color: #c0c0c0;
+}
+
+.gold {
+  color: #D4AF37;
+}
+
+.fa-award {
+  color: green;
+  position: absolute;
+  left: 92.5px;
+  bottom: 2px;
 }

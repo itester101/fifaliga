@@ -47,20 +47,10 @@ td.total-score {
   padding: auto 2%;
 }
 
-.carousel-control-prev {
-  margin: 9% 0 0 35%;
-}
-
-.carousel-control-next {
-  margin: 9% 35% 0 0;
-}
-
-.carousel-control{
-  width: 5%
-}
-
 .cards-deck {
-  position: relative;
+  position: absolute;
+  bottom: -150px;
+  right: 0px;
 }
 
 .card {
@@ -108,4 +98,28 @@ td.total-score {
   position: absolute;
   left: 92.2px;
   bottom: 8.2px;
+}
+
+@media (max-width: 576px){
+  h1, h3, th, td{
+    font-size: 1rem;
+  }
+
+  .cards-deck {
+    right: -280px;
+    z-index: 1;
+  }
+}
+
+
+@media (max-width: 768px) and (min-width: 576px){
+  h1, th, td{
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 995px){
+  .cards-deck {
+    display: none;
+  }
 }
